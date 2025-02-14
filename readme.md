@@ -1,12 +1,23 @@
 # Ingestion workflow orchestrator
 
-## Description
-
 This containerized application can be used to run workflows used for ingesting
 dataset metadata into a Dataverse instance. The different flows and tasks used
 in these workflows are created using Prefect. If you run the container locally
 they can be monitored and ran from the Prefect Orion UI
 at http://localhost:4200.
+
+# Credit and acknowledgements
+
+This project was originally funded under ODISSEI (https://odissei-data.nl/), as
+research funded by NWO (https://www.nwo.nl/). The exact grant number is unknown
+at present. The ingestion was delivered as part of the ODISSEI Portal section of
+the ODISSEI project, as are all related services. By name, Fjodor van Rijsselberg,
+Thomas van Erven, Vyacheslav Tykhonov were involved at it's cognition - but thanks
+belong to the ODISSEI team as a whole.
+
+Accordingly, the LICENSE file has been updated honoring their commitment and work.
+
+## Usage
 
 Most flows start with an entry workflow that can be found in the directory
 entry_workflows. Here the metadata is first harvested using OAI-PMH and
