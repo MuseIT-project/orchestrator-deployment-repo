@@ -15,6 +15,9 @@ pydantic = "^2.9.0"
 pydataverse = "^0.3.4"
 openpyxl = "^3.1.5"
 asyncpg = "^0.29.0"
+pillow = "^11.0.0"
+numpy = "^2.2.1"
+keybert = "^0.8.5"
 
 [tool.poetry.dev-dependencies]
 

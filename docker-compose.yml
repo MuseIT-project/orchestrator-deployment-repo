@@ -1,20 +1,21 @@
 version: '3.7'
 
 services:
-  prefect-houston:
+  prefect-museit:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: 'prefect-houston'
+    container_name: 'prefect-museit'
     image: thomasve/prefect3:latest
     volumes:
       - "/tmp:/tmp"
+      - "./scripts:/scripts"
     ports:
       # Local development only
       - 4200:4200
     env_file: .env
     depends_on:
-      - db
+      - prefectdb
     networks:
       - prefect
 
@@ -22,7 +23,7 @@ services:
     container_name: 'prefect-agent-1'
     image: thomasve/prefect3:latest
     depends_on:
-      - prefect-houston
+      - prefect-museit
     networks:
       - prefect
     entrypoint: ["/usr/local/bin/entrypoint-agent.sh"]
@@ -31,22 +32,25 @@ services:
     container_name: 'prefect-agent-2'
     image: thomasve/prefect3:latest
     depends_on:
-      - prefect-houston
+      - prefect-museit
     networks:
       - prefect
-    entrypoint: ["/usr/local/bin/entrypoint-agent.sh"]
+    entrypoint: ["/usr/local/bin/entrypoint-agent-2.sh"]
 
-  db:
+  prefectdb:
     image: postgres:latest
-    container_name: db
+    container_name: prefectdb
     volumes:
       - ./db:/var/lib/postgresql/data
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=lolgres
       - POSTGRES_DB=prefect
+    ports:
+      - 5432:5432
     networks:
       - prefect
 
 networks:
   prefect:
+    external: true
