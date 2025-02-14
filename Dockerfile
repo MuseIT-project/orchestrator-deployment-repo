@@ -10,5 +10,7 @@ COPY entrypoint.sh /usr/local/bin
 RUN chmod +x /usr/local/bin/entrypoint.sh
 COPY entrypoint-agent.sh /usr/local/bin
 RUN chmod +x /usr/local/bin/entrypoint-agent.sh
+COPY entrypoint-agent-2.sh /usr/local/bin
+RUN chmod +x /usr/local/bin/entrypoint-agent-2.sh
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]

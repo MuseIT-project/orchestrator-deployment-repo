@@ -181,3 +181,6 @@ cython_debug/
 /db
 # Ignore dynaconf secret files
 scripts/configuration/.secrets.toml
+# Ignore results
+scripts/flows/museit/results/
+scripts/flows/museit/formatters/foundkeys_with_global_ids.json
