@@ -17,8 +17,6 @@ belong to the ODISSEI team as a whole.
 
 Accordingly, the LICENSE file has been updated honoring their commitment and work.
 
-<<<<<<< Updated upstream
-=======
 ## Museit workflows
 
 MuseIT has introduced various changes to this project. These are detailed in our 
@@ -41,7 +39,6 @@ and the keys to those services. What you will need to self-host:
 - A dataverse for ingestion
 - Various enrichment services (Ollama models mostly)
 
->>>>>>> Stashed changes
 ## Usage
 
 Most flows start with an entry workflow that can be found in the directory
