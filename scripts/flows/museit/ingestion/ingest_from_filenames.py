@@ -6,10 +6,7 @@ from prefect.logging import get_run_logger
 import random
 import base64
 import time
-<<<<<<< Updated upstream
-=======
 from configuration.config import settings
->>>>>>> Stashed changes
 
 
 @task
@@ -31,14 +28,9 @@ def map_item_to_metadata(item, mapping, template):
     asset['keywords'] = "+".join(filtered_keywords)
     asset['description'] = f"{asset['ollama_description']} + {asset['tags']} + {asset['style']}"
     asset['productionDate'] = item.get('yearAsString')
-<<<<<<< Updated upstream
-    response = requests.post(
-        url='http://dataversemapper:8099/mapper/',
-=======
     asset['alternativeTitle'] = item.get('bucketlocation')
     response = requests.post(
         url=settings.DATAVERSE_MAPPER_URL + '/mapper',
->>>>>>> Stashed changes
         json={
             'metadata': asset,
             'template': template,
@@ -57,8 +49,6 @@ def extract_valuable_keywords(item):
     return [keyword[0] for keyword in keywords if keyword[1] > 0.3]
 
 @task
-<<<<<<< Updated upstream
-=======
 def retrieve_original_file(item):
     '''
     Retrieves the original file from the item
@@ -75,21 +65,10 @@ def retrieve_original_file(item):
 
 
 @task
->>>>>>> Stashed changes
 def retrieve_files_for_metadata(item):
     '''
     Retrieves the files for the metadata item
     '''
-<<<<<<< Updated upstream
-    access_key = 'zGnGNFec3DKTXiN790kZ'
-    bucketname = 'transformedassets'
-    secret_key = 'eBZts8xTc3wbU1UEe5E0fHufTiZtBqwMItFbC9oC'
-    bucketlocation = item['bucketlocation'].split('.')[0]  
-    minio_client = boto3.client('s3', endpoint_url='http://nginxminio:9000', aws_access_key_id=access_key, aws_secret_access_key=secret_key)
-    keys = minio_client.list_objects(Bucket=bucketname)
-    keys = [key['Key'] for key in keys['Contents']]
-    filtered_keys = [key for key in keys if key.startswith(bucketlocation)]
-=======
     access_key = settings.ACCESS_KEY
     bucketname = 'transformedassets'
     secret_key = settings.SECRET_KEY
@@ -104,7 +83,6 @@ def retrieve_files_for_metadata(item):
     filtered_keys = [key for key in keys if bucketlocation in key]
     print("Filtered keys: ", filtered_keys)
     print(bucketlocation)
->>>>>>> Stashed changes
     files_data = []
     for key in filtered_keys:
         file = minio_client.get_object(Bucket=bucketname, Key=key)
@@ -120,16 +98,6 @@ def ingest_metadata(refined_metadata):
     '''
     time.sleep(1)
     response = requests.post(
-<<<<<<< Updated upstream
-        url='http://dataverse-importer:8090/importer/',
-        json={
-            #'doi': f'doi:10.5072/FK2/1{pid}',
-            'metadata': refined_metadata,
-            'dataverse_information': {
-                'base_url': 'https://dataverse.museit.eu',
-                'dt_alias': 'transformations',
-                'api_token': 'fc66fe9a-c1ec-46c0-a55f-8b2d2636853b'
-=======
         url=settings.DATAVERSE_IMPORTER_URL + '/importer/',
         json={
             'metadata': refined_metadata,
@@ -137,7 +105,6 @@ def ingest_metadata(refined_metadata):
                 'base_url': settings.DATAVERSE_BASE_URL,
                 'dt_alias': settings.DATAVERSE_DT_ALIAS,
                 'api_token': settings.DATAVERSE_API_TOKEN
->>>>>>> Stashed changes
             }
         }
     )
@@ -149,11 +116,7 @@ def refine_metadata(mapped_metadata):
     Does refinement on the metadata
     '''
     response = requests.post(
-<<<<<<< Updated upstream
-        url='http://metadata-refiner:7878/metadata-refinement/museit',
-=======
         url=settings.METADATA_REFINEMENT_URL + '/museit',
->>>>>>> Stashed changes
         json={
             'metadata': mapped_metadata,
         }
@@ -170,25 +133,15 @@ def add_file(ch_file, doi, filename):
         'json_data': json.dumps({
             'doi': doi,
             'dataverse_information': {
-<<<<<<< Updated upstream
-                'base_url': 'https://dataverse.museit.eu',
-                'dt_alias': 'transformations',
-                'api_token': 'fc66fe9a-c1ec-46c0-a55f-8b2d2636853b'
-=======
                 'base_url': settings.DATAVERSE_BASE_URL,
                 'dt_alias': settings.DATAVERSE_DT_ALIAS,
                 'api_token': settings.DATAVERSE_API_TOKEN
->>>>>>> Stashed changes
             }
         })
     }
     time.sleep(1)
     response = requests.post(
-<<<<<<< Updated upstream
-        url='http://dataverse-importer:8090/file-upload/',
-=======
         url=settings.DATAVERSE_FILE_UPLOAD_URL + '/file-upload/',
->>>>>>> Stashed changes
         files=files,
         data=data
     )
@@ -203,10 +156,6 @@ def transform_ingest_to_dateverse(item, mappingjson, templatejson):
     metadata = map_item_to_metadata(item=item, mapping=mappingjson, template=templatejson)
     refined_metadata = refine_metadata(mapped_metadata=metadata.json())
     ch_files = retrieve_files_for_metadata(item)
-<<<<<<< Updated upstream
-    logger.info(refined_metadata.json())
-    ingest = ingest_metadata(refined_metadata=refined_metadata.json())
-=======
     if ch_files == []:
         raise ValueError("No files found for metadata", item['title'])
     logger.info(item['title'])
@@ -214,7 +163,6 @@ def transform_ingest_to_dateverse(item, mappingjson, templatejson):
     logger.info(ingest.json())
     original_file = retrieve_original_file(item)
     add_file(ch_file=original_file[1], doi=ingest.json()['data']['persistentId'], filename=original_file[0])
->>>>>>> Stashed changes
     for item in ch_files:
         filedata = item[1]
         filename = item[0]
@@ -234,19 +182,11 @@ def ingest_to_dataverse():
         templatejson = json.load(template)
     with open('foundkeys_origin.json', 'r') as json_file:
         json_data = json.load(json_file)
-<<<<<<< Updated upstream
-    for item in json_data:
-        ingest = transform_ingest_to_dateverse(item=item, mappingjson=mappingjson, templatejson=templatejson)
-        output_data[item['title']] = ingest.json()['data']['persistentId']
-    with open('output.json', 'w') as outfile:
-        json.dump(output_data, outfile)
-=======
     for item in json_data[-21:]:
         ingest = transform_ingest_to_dateverse(item=item, mappingjson=mappingjson, templatejson=templatejson)
         output_data[item['title']] = ingest.json()['data']['persistentId']
     with open('output.json', 'w') as outfile:
         json.dump(output_data, outfile, indent=4, ensure_ascii=False)
->>>>>>> Stashed changes
 
 if __name__ == '__main__':
     ingest_to_dataverse()
