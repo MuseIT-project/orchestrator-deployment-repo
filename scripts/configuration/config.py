@@ -5,7 +5,8 @@ settings = Dynaconf(
         'scripts/configuration/settings.toml',
         'scripts/configuration/odissei_settings.toml',
         'scripts/configuration/sicada_settings.toml',
-        'scripts/configuration/.secrets.toml'
+        'scripts/configuration/.secrets.toml',
+        'scripts/configuration/museit_settings.toml',
     ],
     environments=True,
 )

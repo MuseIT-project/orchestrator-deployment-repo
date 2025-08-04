@@ -1,0 +1,144 @@
+{
+    "datasetVersion": {
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0"
+      },
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "name": "citation",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": ""
+            },
+            {
+              "typeName": "alternativeTitle",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": []
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": ""
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "keyword",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": ""
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": ""
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactEmail": {
+                    "typeName": "datasetContactEmail",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "info@hb.se"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Arts and Humanities"
+              ]
+            },
+            {
+              "typeName": "productionDate",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": ""
+            }
+          ]
+        },
+        "MuseIT": {
+          "displayName": "MuseIT Metadata",
+          "name": "MuseIT",
+          "fields": [
+            {
+              "typeName": "project",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "MuseIT"
+            },
+            {
+              "typeName": "artFormType",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Image"
+              ]
+            },
+            {
+              "typeName": "ObjectVersion",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "1.0"
+            },
+            {
+              "typeName": "accessibilityModality",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Audio",
+                "Haptic",
+                "Visual"
+              ]
+            },
+            {
+              "typeName": "originalityStatus",
+              "multiple": false,
+              "typeClass": "controlledVocabulary",
+              "value": "Representation"
+            }
+          ]
+        }
+      }
+    }
+  }
