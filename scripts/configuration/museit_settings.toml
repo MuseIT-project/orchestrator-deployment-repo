@@ -1,0 +1,6 @@
+[development]
+debug = true
+DATAVERSE_IMPORTER_URL="http://dataverse-importer:8989"
+DATAVERSE_MAPPER_URL="http://dataverse-mapper:8082"
+METADATA_REFINER_URL="http://metadata-refiner:7878"
+METADATA_ENHANCER_URL="http://metadata-enhancer:7070"

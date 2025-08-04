@@ -1,0 +1,8 @@
+{
+    "title": ["title"],
+    "authorName": ["author"],
+    "dsDescriptionValue": ["description"],
+    "productionDate": ["productionDate"],
+    "keywordValue": ["keywords"],
+    "alternativeTitle": ["alternativeTitle"]
+}

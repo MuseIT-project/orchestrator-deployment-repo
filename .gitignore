@@ -6,6 +6,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.vscode
 
 # C extensions
 *.so
@@ -184,3 +185,6 @@ scripts/configuration/.secrets.toml
 # Ignore results
 scripts/flows/museit/results/
 scripts/flows/museit/formatters/foundkeys_with_global_ids.json
+# Ignore gunk and sharemusic work
+scripts/flows/gunk
+scripts/flows/sharemusic

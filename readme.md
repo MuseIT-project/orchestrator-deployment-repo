@@ -17,6 +17,31 @@ belong to the ODISSEI team as a whole.
 
 Accordingly, the LICENSE file has been updated honoring their commitment and work.
 
+<<<<<<< Updated upstream
+=======
+## Museit workflows
+
+MuseIT has introduced various changes to this project. These are detailed in our 
+documentation container/repository, but briefly explained here.
+
+Various flows were developed to perform:
+
+1. Enrichment
+2. Transformation/generative
+3. Ingestion
+
+These are in the appropriate directory under `/scripts/flows/museit`
+
+### Exemptions & reservations
+
+What was not committed is the `.secrets.toml` file which contains the services run, 
+and the keys to those services. What you will need to self-host:
+
+- A minio instance and/or S3 compatible storage.
+- A dataverse for ingestion
+- Various enrichment services (Ollama models mostly)
+
+>>>>>>> Stashed changes
 ## Usage
 
 Most flows start with an entry workflow that can be found in the directory

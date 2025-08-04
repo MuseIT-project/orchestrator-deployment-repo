@@ -1,0 +1,2472 @@
+@prefix art: <http://example.org/artwork/> .
+@prefix artist: <http://example.org/artist/> .
+@prefix base: <http://example.org/> .
+@prefix rel: <http://example.org/relation/> .
+
+artist:Burne_Jones_Edward a base:Artist ;
+    base:name "Burne-Jones Edward" ;
+    rel:isCreator art:Psyche_and_Pan .
+
+artist:Curran_Charles_Courtney a base:Artist ;
+    base:name "Curran Charles Courtney" ;
+    rel:isCreator art:In_the_Luxembourg_Garden .
+
+artist:Frederic_Leighton a base:Artist ;
+    base:name "Frederic Leighton" ;
+    rel:isCreator art:Faticida .
+
+artist:Klimt_Gustav a base:Artist ;
+    base:name "Klimt Gustav" ;
+    rel:isCreator art:Portrait_of_Fritza_Riedler .
+
+artist:Leighton_Frederic a base:Artist ;
+    base:name "Leighton Frederic" ;
+    rel:isCreator art:Actaea__the_Nymph_of_the_Shore .
+
+artist:Modersohn_Becker_Paula a base:Artist ;
+    base:name "Modersohn-Becker Paula" ;
+    rel:isCreator art:Still_life_with_lemon__orange_and_tomato .
+
+artist:Wassily_Kandinsky a base:Artist ;
+    base:name "Wassily Kandinsky" ;
+    rel:isCreator art:Color_Study__Squares_with_Concentric_Circles .
+
+artist:Whistler_McNeill_James a base:Artist ;
+    base:name "Whistler McNeill James" ;
+    rel:isCreator art:Symphony_in_White__No__2__The_Little_White_Girl .
+
+art:3_Coke_Bottles a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Warhol_Andy ;
+    base:title "3 Coke Bottles" .
+
+art:A_House_in_Liozna a base:Artwork ;
+    rel:SubjectAgeIs base:Baby ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Rural ;
+    rel:createdBy artist:Chagall_Marc ;
+    rel:portrayed base:people ;
+    base:title "A House in Liozna" .
+
+art:A_Vision_of_Fiammetta a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Rossetti_Dante_Gabriel ;
+    rel:portrayed base:woman ;
+    base:title "A Vision of Fiammetta" .
+
+art:A_White_Horse a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Velazquez_Diego ;
+    rel:portrayed base:people ;
+    base:title "A White Horse" .
+
+art:A_Young_Lady_of_Fashion a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Uccello_Paolo ;
+    rel:portrayed base:woman ;
+    base:title "A Young Lady of Fashion" .
+
+art:A_dream a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:woman ;
+    base:title "A dream" .
+
+art:Acrobat_and_young_harlequin a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:group ;
+    base:title "Acrobat and young harlequin" .
+
+art:Actaea__the_Nymph_of_the_Shore a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Leighton_Frederic ;
+    rel:portrayed base:woman ;
+    base:title "Actaea, the Nymph of the Shore" .
+
+art:Adam_and_Eve a base:Artwork ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    base:title "Adam and Eve" .
+
+art:Alice a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Modigliani_Amedeo ;
+    rel:portrayed base:woman ;
+    base:title "Alice" .
+
+art:Amethyst a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "Amethyst" .
+
+art:An_Allegory_with_Venus_and_Cupid a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Bronzino_Agnolo ;
+    rel:portrayed base:Group ;
+    base:title "An Allegory with Venus and Cupid" .
+
+art:Annah_the_Javanese a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Gauguin_Paul ;
+    rel:portrayed base:woman ;
+    base:title "Annah the Javanese" .
+
+art:Apples__Pears_and_Grapes a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Cezanne_Paul ;
+    base:title "Apples, Pears and Grapes" .
+
+art:Arrangement_in_Grey_and_Black_No_1__Portrait_of_the_Artist_s_Mother a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Whistler_James_McNeill ;
+    rel:portrayed base:woman ;
+    base:title "Arrangement in Grey and Black No.1, Portrait of the Artist's Mother" .
+
+art:Artist_s_son a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:Man ;
+    base:title "Artist's son" .
+
+art:Asia a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:woman ;
+    base:title "Asia" .
+
+art:At_the_Theater a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "At the Theater" .
+
+art:Ballet_Scene a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Degas_Edgar ;
+    rel:portrayed base:group ;
+    base:title "Ballet Scene" .
+
+art:Barber_s_Shop__Uncle_Zusman_ a base:Artwork ;
+    rel:SubjectAgeIs base:Elderly ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Chagall_Marc ;
+    rel:portrayed base:Man ;
+    base:title "Barber's Shop (Uncle Zusman)" .
+
+art:Base_of_a_Palace a base:Artwork ;
+    rel:TypeOf base:Urban ;
+    rel:createdBy artist:Sargent_John_Singer ;
+    base:title "Base of a Palace" .
+
+art:Bather_in_the_Reeds a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:Woman ;
+    base:title "Bather in the Reeds" .
+
+art:Beached_Boats a base:Artwork ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Sorolla_Joaqu_n ;
+    base:title "Beached Boats" .
+
+art:Beggar_with_Mandolin a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:man ;
+    base:title "Beggar with Mandolin" .
+
+art:Big_Campbell_s_Soup_Can_19c__Beef_Noodle_ a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Warhol_Andy ;
+    base:title "Big Campbell's Soup Can 19c (Beef Noodle)" .
+
+art:Blue_Nude_III a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Matisse_Henri ;
+    base:title "Blue Nude III" .
+
+art:Blue_Woman_with_a_Guitar a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "Blue Woman with a Guitar" .
+
+art:Boat__Bath a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Women ;
+    base:title "Boat, Bath" .
+
+art:Bowl_of_Grapes a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    base:title "Bowl of Grapes" .
+
+art:Boy_with_bouquet_of_flowers_in_his_hand a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:Person ;
+    base:title "Boy with bouquet of flowers in his hand" .
+
+art:Breakfast_in_Bed a base:Artwork ;
+    rel:SubjectAgeIs base:Baby ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Woman ;
+    base:title "Breakfast in Bed" .
+
+art:Bunny_Multiple a base:Artwork ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Pop_Art ;
+    rel:createdBy artist:Warhol_Andy ;
+    base:title "Bunny Multiple" .
+
+art:Burning_House a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Chagall_Marc ;
+    rel:portrayed base:Man ;
+    base:title "Burning House" .
+
+art:Bust_of_Francoise_Looking_Down a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:girl ;
+    base:title "Bust of Francoise Looking Down" .
+
+art:COM a base:Artwork ;
+    rel:TypeOf base:Pop_Art ;
+    rel:createdBy artist:Warhol_Andy ;
+    base:title "COM" .
+
+art:Calla_Lillies a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    base:title "Calla Lillies" .
+
+art:Cape_Cod_Afternoon a base:Artwork ;
+    rel:SubjectAgeIs base:Old ;
+    rel:TimeOfDayIs base:Afternoon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Hopper_Edward ;
+    base:title "Cape Cod Afternoon" .
+
+art:Cara_Sophia_K_hler__n_e_Goldammer a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Putz_Leo ;
+    rel:portrayed base:woman ;
+    base:title "Cara Sophia Köhler, née Goldammer" .
+
+art:Catalan_Woman a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:woman ;
+    base:title "Catalan Woman" .
+
+art:Child_with_Red_Hat a base:Artwork ;
+    rel:createdBy artist:Cassatt_Mary ;
+    base:title "Child with Red Hat" .
+
+art:Children_Playing_On_The_Beach a base:Artwork ;
+    rel:SubjectAgeIs base:Children ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:people ;
+    base:title "Children Playing On The Beach" .
+
+art:Children_Playing_with_a_Cat a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Woman ;
+    base:title "Children Playing with a Cat" .
+
+art:Children_in_the_Sea a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Sorolla_Joaqu_n ;
+    rel:portrayed base:Girls ;
+    base:title "Children in the Sea" .
+
+art:Christ_on_cross a base:Artwork ;
+    rel:createdBy artist:Uccello_Paolo ;
+    base:title "Christ on cross" .
+
+art:Clock a base:Artwork ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Chagall_Marc ;
+    base:title "Clock" .
+
+art:Codomas a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Matisse_Henri ;
+    base:title "Codomas" .
+
+art:Color_Study__Squares_with_Concentric_Circles a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Wassily_Kandinsky ;
+    base:title "Color Study: Squares with Concentric Circles" .
+
+art:Composition_with_Gray_and_Light_Brown a base:Artwork ;
+    rel:createdBy artist:Mondrian_Piet ;
+    base:title "Composition with Gray and Light Brown" .
+
+art:Composition_with_Grid_IX a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Mondrian_Piet ;
+    base:title "Composition with Grid IX" .
+
+art:Composition_with_Grid_VII a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Mondrian_Piet ;
+    base:title "Composition with Grid VII" .
+
+art:Compotier__Glass_and_Apples a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Cezanne_Paul ;
+    base:title "Compotier, Glass and Apples" .
+
+art:Cosimo_de__Medici a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Bronzino_Agnolo ;
+    rel:portrayed base:man ;
+    base:title "Cosimo de' Medici" .
+
+art:Cow a base:Artwork ;
+    rel:TypeOf base:Pop_Art ;
+    rel:createdBy artist:Warhol_Andy ;
+    base:title "Cow" .
+
+art:Cranes_from_Quick_Lessons_in_Simplified_Drawing a base:Artwork ;
+    rel:createdBy artist:Hokusai_Katsushika ;
+    base:title "Cranes from Quick Lessons in Simplified Drawing" .
+
+art:Crucifixion a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Uccello_Paolo ;
+    rel:portrayed base:people ;
+    base:title "Crucifixion" .
+
+art:Dancer_with_a_Fan a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Degas_Edgar ;
+    rel:portrayed base:Woman ;
+    base:title "Dancer with a Fan" .
+
+art:Dancer_with_a_bouquet_of_flowers__The_Star_of_the_ballet_ a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Degas_Edgar ;
+    rel:portrayed base:women ;
+    base:title "Dancer with a bouquet of flowers (The Star of the ballet)" .
+
+art:Dead_Tree_with_Pink_Hill a base:Artwork ;
+    rel:SubjectAgeIs base:Aged ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:O_Keeffe_Georgia ;
+    base:title "Dead Tree with Pink Hill" .
+
+art:Do_It_Yourself__Flowers_ a base:Artwork ;
+    rel:TypeOf base:Pop_Art ;
+    rel:createdBy artist:Warhol_Andy ;
+    base:title "Do It Yourself (Flowers)" .
+
+art:Do_It_Yourself__Sailboats_ a base:Artwork ;
+    rel:TimeOfDayIs base:Nightfall ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Warhol_Andy ;
+    base:title "Do It Yourself (Sailboats)" .
+
+art:Do_It_Yourself__Seascape_ a base:Artwork ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Warhol_Andy ;
+    base:title "Do It Yourself (Seascape)" .
+
+art:Dona_Antonia_de_Ipenarrieta_y_Galdos_and_her_Son a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Velazquez_Diego ;
+    rel:portrayed base:Woman ;
+    base:title "Dona Antonia de Ipenarrieta y Galdos and her Son" .
+
+art:Elizabeth_Griffiths_Smith_Hopper__The_Artist_s_Mother a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Hopper_Edward ;
+    rel:portrayed base:woman ;
+    base:title "Elizabeth Griffiths Smith Hopper, The Artist's Mother" .
+
+art:Ellen_Terry_as_Lady_Macbeth a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Sargent_John_Singer ;
+    rel:portrayed base:woman ;
+    base:title "Ellen Terry as Lady Macbeth" .
+
+art:Elsie_in_a_Blue_Chair a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:girl ;
+    base:title "Elsie in a Blue Chair" .
+
+art:Ends_Of_Barns a base:Artwork ;
+    rel:TypeOf base:Rural ;
+    rel:createdBy artist:O_Keeffe_Georgia ;
+    base:title "Ends Of Barns" .
+
+art:Equestrian_Monument_of_Sir_John_Hawkwood a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Uccello_Paolo ;
+    rel:portrayed base:Men ;
+    base:title "Equestrian Monument of Sir John Hawkwood" .
+
+art:Equestrienne a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Chagall_Marc ;
+    rel:portrayed base:woman ;
+    base:title "Equestrienne" .
+
+art:Family_at_the_seashore a base:Artwork ;
+    rel:SubjectAgeIs base:Baby ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:woman ;
+    base:title "Family at the seashore" .
+
+art:Farmyard_at_Auvers a base:Artwork ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Rural ;
+    rel:createdBy artist:Cezanne_Paul ;
+    base:title "Farmyard at Auvers" .
+
+art:Faticida a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Frederic_Leighton ;
+    rel:portrayed base:woman ;
+    base:title "Faticida" .
+
+art:Feeding_the_Ducks a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Women ;
+    base:title "Feeding the Ducks" .
+
+art:Female_nude a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Modigliani_Amedeo ;
+    rel:portrayed base:woman ;
+    base:title "Female nude" .
+
+art:Female_nude_sitting_in_red_armchair a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:woman ;
+    base:title "Female nude sitting in red armchair" .
+
+art:Fishing_Boats_on_the_Beach_at_Saintes_Maries_de_la_Mer a base:Artwork ;
+    rel:TimeOfDayIs base:Dusk ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:van_Gogh_Vincent ;
+    base:title "Fishing Boats on the Beach at Saintes-Maries-de-la-Mer" .
+
+art:Flayed_ox a base:Artwork ;
+    rel:createdBy artist:Chagall_Marc ;
+    base:title "Flayed ox" .
+
+art:Flora_Priestley__also_known_as_Lamplight_Study_ a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Sargent_John_Singer ;
+    rel:portrayed base:Woman ;
+    base:title "Flora Priestley (also known as Lamplight Study)" .
+
+art:Flowers a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Warhol_Andy ;
+    base:title "Flowers" .
+
+art:Francoise_Wearing_a_Big_White_Hat a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Girl ;
+    base:title "Francoise Wearing a Big White Hat" .
+
+art:Fuji__Mountains_in_clear_Weather___Red_Fuji_ a base:Artwork ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Hokusai_Katsushika ;
+    base:title "Fuji, Mountains in clear Weather  (Red Fuji)" .
+
+art:Girl a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cezanne_Paul ;
+    rel:portrayed base:Girl ;
+    base:title "Girl" .
+
+art:Girl_In_Large_Hat a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:girl ;
+    base:title "Girl In Large Hat" .
+
+art:Girl_in_front_of_mirror a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:girl ;
+    base:title "Girl in front of mirror" .
+
+art:Girl_with_Gloves a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "Girl with Gloves" .
+
+art:Guitar a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Picasso_Pablo ;
+    base:title "Guitar" .
+
+art:Halbindianerin_mit_Fr_chten a base:Artwork ;
+    rel:createdBy artist:Putz_Leo ;
+    base:title "Halbindianerin mit Früchten" .
+
+art:Hall_of_the_Ambassadors__Alhambra__Granada a base:Artwork ;
+    rel:TimeOfDayIs base:Dusk ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Sorolla_Joaqu_n ;
+    base:title "Hall of the Ambassadors, Alhambra, Granada" .
+
+art:Harlequin_with_his_hands_crossed__Jacinto_Salvado_ a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:man ;
+    base:title "Harlequin with his hands crossed (Jacinto Salvado)" .
+
+art:Harmony_in_Red a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:woman ;
+    base:title "Harmony in Red" .
+
+art:Head a base:Artwork ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:Man ;
+    base:title "Head" .
+
+art:Head_of_a_Stag a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Velazquez_Diego ;
+    base:title "Head of a Stag" .
+
+art:Head_of_a_Woman a base:Artwork ;
+    rel:createdBy artist:Modigliani_Amedeo ;
+    base:title "Head of a Woman" .
+
+art:Head_of_young_man a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:man ;
+    base:title "Head of young man" .
+
+art:Hibiscus_with_Plumeria a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:O_Keeffe_Georgia ;
+    base:title "Hibiscus with Plumeria" .
+
+art:Hodogaya_on_the_Tokaido a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Hokusai_Katsushika ;
+    rel:portrayed base:people ;
+    base:title "Hodogaya on the Tokaido" .
+
+art:Holy_Family_with_St__Anne_and_the_infant_St__John_the_Baptist a base:Artwork ;
+    rel:SubjectAgeIs base:Baby ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Bronzino_Agnolo ;
+    rel:portrayed base:people ;
+    base:title "Holy Family with St. Anne and the infant St. John the Baptist" .
+
+art:Hope a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Uccello_Paolo ;
+    rel:portrayed base:girl ;
+    base:title "Hope" .
+
+art:Horsewoman_on_Red_Horse a base:Artwork ;
+    rel:createdBy artist:Chagall_Marc ;
+    base:title "Horsewoman on Red Horse" .
+
+art:Houses_at_the_L_Estaque a base:Artwork ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Rural ;
+    rel:createdBy artist:Cezanne_Paul ;
+    base:title "Houses at the L'Estaque" .
+
+art:Hydrangea_and_Swallow a base:Artwork ;
+    rel:createdBy artist:Hokusai_Katsushika ;
+    base:title "Hydrangea and Swallow" .
+
+art:In_The_Middle_Of_Summer a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "In The Middle Of Summer" .
+
+art:In_the_Luxembourg_Garden a base:Artwork ;
+    rel:createdBy artist:Curran_Charles_Courtney ;
+    base:title "In the Luxembourg Garden" .
+
+art:In_the_park a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "In the park" .
+
+art:Ingrid_Bergman_With_Hat a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Warhol_Andy ;
+    rel:portrayed base:woman ;
+    base:title "Ingrid Bergman With Hat" .
+
+art:Ingrid_Bergman__as_Herself_ a base:Artwork ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Warhol_Andy ;
+    rel:portrayed base:woman ;
+    base:title "Ingrid Bergman (as Herself)" .
+
+art:Interior a base:Artwork ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Matisse_Henri ;
+    base:title "Interior" .
+
+art:Interior_in_Yellow a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:people ;
+    base:title "Interior in Yellow" .
+
+art:Jane_Fonda a base:Artwork ;
+    rel:TypeOf base:Pop_Art ;
+    rel:createdBy artist:Warhol_Andy ;
+    rel:portrayed base:Portrait ;
+    base:title "Jane Fonda" .
+
+art:Joseph__a_shepherd a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Rural ;
+    rel:createdBy artist:Chagall_Marc ;
+    rel:portrayed base:Man ;
+    base:title "Joseph, a shepherd" .
+
+art:Joseph_and_Potiphar_s_wife a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Historical ;
+    rel:createdBy artist:Chagall_Marc ;
+    rel:portrayed base:people ;
+    base:title "Joseph and Potiphar's wife" .
+
+art:Jourdan_s_Cottage a base:Artwork ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Rural ;
+    rel:createdBy artist:Cezanne_Paul ;
+    base:title "Jourdan's Cottage" .
+
+art:Kallan a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:woman ;
+    base:title "Kallan" .
+
+art:Kizette_On_The_Balcony a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Urban ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:girl ;
+    base:title "Kizette On The Balcony" .
+
+art:La_Belle_Rafaela a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "La Belle Rafaela" .
+
+art:Lake_Suwa_in_the_Shinano_province a base:Artwork ;
+    rel:TimeOfDayIs base:Dawn ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Hokusai_Katsushika ;
+    base:title "Lake Suwa in the Shinano province" .
+
+art:Lemons_and_Saxifrages a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Matisse_Henri ;
+    base:title "Lemons and Saxifrages" .
+
+art:Little_Ann_Sucking_Her_Finger_Embraced_by_Her_Mother a base:Artwork ;
+    rel:SubjectAgeIs base:Baby ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "Little Ann Sucking Her Finger Embraced by Her Mother" .
+
+art:Little_Girl_in_a_Blue_Armchair a base:Artwork ;
+    rel:createdBy artist:Cassatt_Mary ;
+    base:title "Little Girl in a Blue Armchair" .
+
+art:Little_Girl_with_a_Japanese_Doll a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Girl ;
+    base:title "Little Girl with a Japanese Doll" .
+
+art:Liz_Taylor a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Warhol_Andy ;
+    rel:portrayed base:woman ;
+    base:title "Liz Taylor" .
+
+art:Liza_Minnelli a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Warhol_Andy ;
+    rel:portrayed base:woman ;
+    base:title "Liza Minnelli" .
+
+art:Lovers a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:woman ;
+    base:title "Lovers" .
+
+art:Lydia_Crocheting_in_the_Garden_at_Marly a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "Lydia Crocheting in the Garden at Marly" .
+
+art:Madame_Cezanne_in_the_Greenhouse a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cezanne_Paul ;
+    rel:portrayed base:Woman ;
+    base:title "Madame Cezanne in the Greenhouse" .
+
+art:Madonna a base:Artwork ;
+    rel:SubjectAgeIs base:Baby ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Uccello_Paolo ;
+    rel:portrayed base:Woman ;
+    base:title "Madonna" .
+
+art:Marilyn a base:Artwork ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Warhol_Andy ;
+    rel:portrayed base:Woman ;
+    base:title "Marilyn" .
+
+art:Mary_Ellison_Embroidering a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "Mary Ellison Embroidering" .
+
+art:Maternity a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:Woman ;
+    base:title "Maternity" .
+
+art:Moses_Dreyfus a base:Artwork ;
+    rel:createdBy artist:Cassatt_Mary ;
+    base:title "Moses Dreyfus" .
+
+art:Mother_and_Two_Children a base:Artwork ;
+    rel:SubjectAgeIs base:Toddler ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Woman ;
+    base:title "Mother and Two Children" .
+
+art:Mother_and_child a base:Artwork ;
+    rel:SubjectAgeIs base:Baby ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:Woman ;
+    base:title "Mother and child" .
+
+art:Mrs_Cassatt_Reading_to_her_Grandchildren a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Women ;
+    base:title "Mrs Cassatt Reading to her Grandchildren" .
+
+art:My_Portrait__Self_Portrait_in_the_Green_Bugatti_ a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "My Portrait (Self-Portrait in the Green Bugatti)" .
+
+art:Nude_Woman_Standing a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cezanne_Paul ;
+    rel:portrayed base:woman ;
+    base:title "Nude Woman Standing" .
+
+art:Nude_on_a_Terrace a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "Nude on a Terrace" .
+
+art:Nude_with_Dove a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "Nude with Dove" .
+
+art:Ochre_Head__Lozenge_Background a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:woman ;
+    base:title "Ochre Head, Lozenge Background" .
+
+art:Olga a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:woman ;
+    base:title "Olga" .
+
+art:On_San_Sebastian_beach a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Sorolla_Joaqu_n ;
+    rel:portrayed base:Woman ;
+    base:title "On San Sebastian beach" .
+
+art:On_the_Beach_at_Valencia a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Sorolla_Joaqu_n ;
+    rel:portrayed base:woman ;
+    base:title "On the Beach at Valencia" .
+
+art:Oxen_at_the_Beach a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Dawn ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Sorolla_Joaqu_n ;
+    rel:portrayed base:people ;
+    base:title "Oxen at the Beach" .
+
+art:Pattycake a base:Artwork ;
+    rel:SubjectAgeIs base:Baby ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:women ;
+    base:title "Pattycake" .
+
+art:Paul_Gauguin_s_Armchair a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:van_Gogh_Vincent ;
+    rel:portrayed base:men ;
+    base:title "Paul Gauguin's Armchair" .
+
+art:Paul__the_artist_s_son__ten_years_old a base:Artwork ;
+    rel:SubjectAgeIs base:Child ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:Man ;
+    base:title "Paul, the artist's son, ten years old" .
+
+art:Peasant_in_a_Blue_Smock a base:Artwork ;
+    rel:SubjectAgeIs base:Mature ;
+    rel:TypeOf base:Rural ;
+    rel:createdBy artist:Cezanne_Paul ;
+    rel:portrayed base:peasant ;
+    base:title "Peasant in a Blue Smock" .
+
+art:Pierrot_and_Harlequin__Mardi_Gras_ a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cezanne_Paul ;
+    rel:portrayed base:group ;
+    base:title "Pierrot and Harlequin (Mardi Gras)" .
+
+art:Pine_Barren_Tree_Frog_II_294__From_Endangered_Species_Suite_ a base:Artwork ;
+    rel:TypeOf base:Pop_Art ;
+    rel:createdBy artist:Warhol_Andy ;
+    base:title "Pine Barren Tree Frog II.294 (From Endangered Species Suite)" .
+
+art:Polynesia__La_Mer a base:Artwork ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Matisse_Henri ;
+    base:title "Polynesia, La Mer" .
+
+art:Polynesia__the_sky a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Matisse_Henri ;
+    base:title "Polynesia, the sky" .
+
+art:Ponte_San_Giuseppe_di_Castello__Venice a base:Artwork ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Sargent_John_Singer ;
+    base:title "Ponte San Giuseppe di Castello, Venice" .
+
+art:Portrait_Of_A_Lady a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Uccello_Paolo ;
+    rel:portrayed base:woman ;
+    base:title "Portrait Of A Lady" .
+
+art:Portrait_Of_Dr__Boucard a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:man ;
+    base:title "Portrait Of Dr. Boucard" .
+
+art:Portrait_of_Cardinal_Infante_Ferdinand_of_Austria_with_Gun_and_Dog a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Velazquez_Diego ;
+    rel:portrayed base:Man ;
+    base:title "Portrait of Cardinal Infante Ferdinand of Austria with Gun and Dog" .
+
+art:Portrait_of_Charles_Dikran_Kelekian a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Boy ;
+    base:title "Portrait of Charles Dikran Kelekian" .
+
+art:Portrait_of_D__M_ a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:man ;
+    base:title "Portrait of D. M." .
+
+art:Portrait_of_Do_a_Rosita_Morillo a base:Artwork ;
+    rel:SubjectAgeIs base:Aged ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Kahlo_Frida ;
+    rel:portrayed base:Woman ;
+    base:title "Portrait of Doña Rosita Morillo" .
+
+art:Portrait_of_Elizabeth_Siddal a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Dante_Gabriel_Rossetti ;
+    rel:portrayed base:woman ;
+    base:title "Portrait of Elizabeth Siddal" .
+
+art:Portrait_of_Fritza_Riedler a base:Artwork ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Klimt_Gustav ;
+    rel:portrayed base:woman ;
+    base:title "Portrait of Fritza Riedler" .
+
+art:Portrait_of_Madame_Alfred_Lavergne__born_Magdalena_Mellon a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "Portrait of Madame Alfred Lavergne, born Magdalena Mellon" .
+
+art:Portrait_of_Madame_M_ a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "Portrait of Madame M." .
+
+art:Portrait_of_Madame_Zanetos a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "Portrait of Madame Zanetos" .
+
+art:Portrait_of_Mrs_Boucard a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Urban ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:Woman ;
+    base:title "Portrait of Mrs Boucard" .
+
+art:Portrait_of_Mrs_M a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "Portrait of Mrs M" .
+
+art:Portrait_of_Paulo__artist_s_son a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:Child ;
+    base:title "Portrait of Paulo, artist's son" .
+
+art:Portrait_of_Pierre_de_Montaut a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:man ;
+    base:title "Portrait of Pierre de Montaut" .
+
+art:Portrait_of_Postman_Roulin a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:van_Gogh_Vincent ;
+    rel:portrayed base:man ;
+    base:title "Portrait of Postman Roulin" .
+
+art:Portrait_of_Prince_Eristoff a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:man ;
+    base:title "Portrait of Prince Eristoff" .
+
+art:Portrait_of_Stefano_IV_Colonna a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Bronzino_Agnolo ;
+    rel:portrayed base:man ;
+    base:title "Portrait of Stefano IV Colonna" .
+
+art:Portrait_of_Vava a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Chagall_Marc ;
+    rel:portrayed base:woman ;
+    base:title "Portrait of Vava" .
+
+art:Portrait_of_a_Lady a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Velazquez_Diego ;
+    rel:portrayed base:woman ;
+    base:title "Portrait of a Lady" .
+
+art:Portrait_of_a_Young_Man a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Uccello_Paolo ;
+    rel:portrayed base:man ;
+    base:title "Portrait of a Young Man" .
+
+art:Portrait_of_a_woman_holding_a_fan a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Hokusai_Katsushika ;
+    rel:portrayed base:woman ;
+    base:title "Portrait of a woman holding a fan" .
+
+art:Portrait_of_an_elderly_lady a base:Artwork ;
+    rel:SubjectAgeIs base:Aged ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "Portrait of an elderly lady" .
+
+art:Portrait_of_woman_in_d_hermine_pass__Olga_ a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:woman ;
+    base:title "Portrait of woman in d`hermine pass (Olga)" .
+
+art:Potrait_of_Arlette_Boucard a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:Woman ;
+    base:title "Potrait of Arlette Boucard" .
+
+art:Printemps a base:Artwork ;
+    rel:TypeOf base:Urban ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:people ;
+    base:title "Printemps" .
+
+art:Promenade_by_the_Sea a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Sorolla_Joaqu_n ;
+    rel:portrayed base:Women ;
+    base:title "Promenade by the Sea" .
+
+art:Psyche_and_Pan a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Burne_Jones_Edward ;
+    rel:portrayed base:Woman ;
+    base:title "Psyche and Pan" .
+
+art:Purple_Leaves a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:O_Keeffe_Georgia ;
+    base:title "Purple Leaves" .
+
+art:Queen_Beatrix_of_the_Netherlands__from_Reigning_Queens a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Warhol_Andy ;
+    rel:portrayed base:woman ;
+    base:title "Queen Beatrix of the Netherlands, from Reigning Queens" .
+
+art:Queen_Isabel__Standing a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Velazquez_Diego ;
+    rel:portrayed base:woman ;
+    base:title "Queen Isabel, Standing" .
+
+art:Queen_Margrethe_II_Of_Denmark a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Warhol_Andy ;
+    rel:portrayed base:Woman ;
+    base:title "Queen Margrethe II Of Denmark" .
+
+art:Rainstorm_beneath_the_Summit a base:Artwork ;
+    rel:createdBy artist:Hokusai_Katsushika ;
+    base:title "Rainstorm beneath the Summit" .
+
+art:Red_Jacket a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:woman ;
+    base:title "Red Jacket" .
+
+art:Return_From_Fishing a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Sorolla_Joaqu_n ;
+    rel:portrayed base:people ;
+    base:title "Return From Fishing" .
+
+art:Roman_Girl a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "Roman Girl" .
+
+art:Rooms_By_The_Sea a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Hopper_Edward ;
+    rel:portrayed base:people ;
+    base:title "Rooms By The Sea" .
+
+art:Roundel_with_Head a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Uccello_Paolo ;
+    rel:portrayed base:Woman ;
+    base:title "Roundel with Head" .
+
+art:Running_along_the_beach a base:Artwork ;
+    rel:SubjectAgeIs base:Children ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Sorolla_Joaqu_n ;
+    rel:portrayed base:group ;
+    base:title "Running along the beach" .
+
+art:Saint_Moritz a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "Saint Moritz" .
+
+art:Saints_and_two_children a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Uccello_Paolo ;
+    rel:portrayed base:Woman ;
+    base:title "Saints and two children" .
+
+art:Seated_fat_clown a base:Artwork ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:man ;
+    base:title "Seated fat clown" .
+
+art:Seated_woman a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:man ;
+    base:title "Seated woman" .
+
+art:Seated_woman__Olga_ a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:women ;
+    base:title "Seated woman (Olga)" .
+
+art:Self_Portrait a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Sargent_John_Singer ;
+    rel:portrayed base:man ;
+    base:title "Self-Portrait" .
+
+art:Singer_with_a_glove a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Degas_Edgar ;
+    rel:portrayed base:Woman ;
+    base:title "Singer with a glove" .
+
+art:Sitting_Bull a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Warhol_Andy ;
+    rel:portrayed base:man ;
+    base:title "Sitting Bull" .
+
+art:Sketch_of__Ellen_My_Cassatt_in_a_Big_Blue_Hat a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:girl ;
+    base:title "Sketch of  Ellen My Cassatt in a Big Blue Hat" .
+
+art:Small_Drawing_Room a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Chagall_Marc ;
+    rel:portrayed base:people ;
+    base:title "Small Drawing Room" .
+
+art:St_Dominic a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Uccello_Paolo ;
+    rel:portrayed base:men ;
+    base:title "St.Dominic" .
+
+art:St_Francis a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Uccello_Paolo ;
+    rel:portrayed base:Man ;
+    base:title "St.Francis" .
+
+art:St__George_and_the_Dragon a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Uccello_Paolo ;
+    rel:portrayed base:men ;
+    base:title "St. George and the Dragon" .
+
+art:Standing_nude a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:woman ;
+    base:title "Standing nude" .
+
+art:Still_Life_Flowers_in_a_Vase a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Cezanne_Paul ;
+    base:title "Still Life Flowers in a Vase" .
+
+art:Still_Life___Vase_with_Fifteen_Sunflowers a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:van_Gogh_Vincent ;
+    base:title "Still Life - Vase with Fifteen Sunflowers" .
+
+art:Still_Life_with_Daffodils a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Sargent_John_Singer ;
+    base:title "Still Life with Daffodils" .
+
+art:Still_Life_with_Green_Sideboard a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Matisse_Henri ;
+    base:title "Still Life with Green Sideboard" .
+
+art:Still_Life_with_Red_Onions a base:Artwork ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Cezanne_Paul ;
+    base:title "Still Life with Red Onions" .
+
+art:Still_Life_with_Skull a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Cezanne_Paul ;
+    base:title "Still Life with Skull" .
+
+art:Still_life_with_Tahitian_oranges a base:Artwork ;
+    rel:createdBy artist:Gauguin_Paul ;
+    base:title "Still life with Tahitian oranges" .
+
+art:Still_life_with_apples__servettes_and_a_milkcan a base:Artwork ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Cezanne_Paul ;
+    base:title "Still life with apples, servettes and a milkcan" .
+
+art:Still_life_with_fruits a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Cezanne_Paul ;
+    base:title "Still life with fruits" .
+
+art:Still_life_with_lemon__orange_and_tomato a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Modersohn_Becker_Paula ;
+    base:title "Still life with lemon, orange and tomato" .
+
+art:Still_life_with_parrot a base:Artwork ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Kahlo_Frida ;
+    base:title "Still life with parrot" .
+
+art:Study_for_Augusta_Reading_to_Her_Daughter a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Girl ;
+    base:title "Study for Augusta Reading to Her Daughter" .
+
+art:Study_for_Semiramis_Building_Babylon a base:Artwork ;
+    rel:createdBy artist:Degas_Edgar ;
+    base:title "Study for Semiramis Building Babylon" .
+
+art:Study_for_the_painting_Rain a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Rural ;
+    rel:createdBy artist:Chagall_Marc ;
+    rel:portrayed base:people ;
+    base:title "Study for the painting Rain" .
+
+art:Study_of_Bathers a base:Artwork ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Cezanne_Paul ;
+    rel:portrayed base:group ;
+    base:title "Study of Bathers" .
+
+art:Summer_Evening a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Dusk ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Hopper_Edward ;
+    rel:portrayed base:people ;
+    base:title "Summer Evening" .
+
+art:Susan_in_a_Toque_Trimmed_with_Two_Roses a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "Susan in a Toque Trimmed with Two Roses" .
+
+art:Suzanne_Bathing a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "Suzanne Bathing" .
+
+art:Symphony_in_White__No__2__The_Little_White_Girl a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Whistler_McNeill_James ;
+    rel:portrayed base:Girl ;
+    base:title "Symphony in White, No. 2: The Little White Girl" .
+
+art:Symphony_in_White_no_1__The_White_Girl_Portrait_of_Joanna_Hiffernan a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Whistler_James_McNeill ;
+    rel:portrayed base:Woman ;
+    base:title "Symphony in White no.1: The White Girl Portrait of Joanna Hiffernan" .
+
+art:Tahitian_mountains a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Gauguin_Paul ;
+    rel:portrayed base:Woman ;
+    base:title "Tahitian mountains" .
+
+art:The_Annunciation a base:Artwork ;
+    rel:createdBy artist:Waterhouse_John_William ;
+    base:title "The Annunciation" .
+
+art:The_Artist_s_Sister_at_a_Window a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Morisot_Berthe ;
+    rel:portrayed base:Girl ;
+    base:title "The Artist's Sister at a Window" .
+
+art:The_Ballet_Dancer a base:Artwork ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:women ;
+    base:title "The Ballet Dancer" .
+
+art:The_Ballet_Dancer__Harmony_in_Grey a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:woman ;
+    base:title "The Ballet Dancer, Harmony in Grey" .
+
+art:The_Barefoot_Child a base:Artwork ;
+    rel:SubjectAgeIs base:Baby ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Woman ;
+    base:title "The Barefoot Child" .
+
+art:The_Beloved a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Rossetti_Dante_Gabriel ;
+    rel:portrayed base:Woman ;
+    base:title "The Beloved" .
+
+art:The_Blue_Vase a base:Artwork ;
+    rel:TypeOf base:Impressionist ;
+    rel:createdBy artist:Morisot_Berthe ;
+    base:title "The Blue Vase" .
+
+art:The_Boating_Party a base:Artwork ;
+    rel:createdBy artist:Cassatt_Mary ;
+    base:title "The Boating Party" .
+
+art:The_Clown a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:illustration ;
+    base:title "The Clown" .
+
+art:The_Destiny a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Matisse_Henri ;
+    base:title "The Destiny" .
+
+art:The_Dragon_of_Smoke_Escaping_from_Mount_Fuji a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Hokusai_Katsushika ;
+    rel:portrayed base:people ;
+    base:title "The Dragon of Smoke Escaping from Mount Fuji" .
+
+art:The_Entrance_Hall_of_Saint_Paul_Hospital a base:Artwork ;
+    rel:createdBy artist:van_Gogh_Vincent ;
+    base:title "The Entrance Hall of Saint-Paul Hospital" .
+
+art:The_Flowing_Hair a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Matisse_Henri ;
+    base:title "The Flowing Hair" .
+
+art:The_Garland a base:Artwork ;
+    rel:SubjectAgeIs base:Woman ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Dante_Gabriel_Rossetti ;
+    rel:portrayed base:Women ;
+    base:title "The Garland" .
+
+art:The_Geranium a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Matisse_Henri ;
+    base:title "The Geranium" .
+
+art:The_Great_Wave_off_Kanagawa a base:Artwork ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Hokusai_Katsushika ;
+    base:title "The Great Wave off Kanagawa" .
+
+art:The_Green_Turban a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:Women ;
+    base:title "The Green Turban" .
+
+art:The_King_s_Wife a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Gauguin_Paul ;
+    rel:portrayed base:woman ;
+    base:title "The King's Wife" .
+
+art:The_Lady_of_Shalott a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Waterhouse_John_William ;
+    rel:portrayed base:woman ;
+    base:title "The Lady of Shalott" .
+
+art:The_Lagoon_1 a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Matisse_Henri ;
+    base:title "The Lagoon 1" .
+
+art:The_Langlois_Bridge a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Rural ;
+    rel:createdBy artist:van_Gogh_Vincent ;
+    rel:portrayed base:people ;
+    base:title "The Langlois Bridge" .
+
+art:The_Lute a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:woman ;
+    base:title "The Lute" .
+
+art:The_Model a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:Woman ;
+    base:title "The Model" .
+
+art:The_Mother_Superior a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:women ;
+    base:title "The Mother Superior" .
+
+art:The_Ochre_Head a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:people ;
+    base:title "The Ochre Head" .
+
+art:The_Pensive_Reader a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:girl ;
+    base:title "The Pensive Reader" .
+
+art:The_Rokeby_Venus a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Velazquez_Diego ;
+    rel:portrayed base:Woman ;
+    base:title "The Rokeby Venus" .
+
+art:The_Romanian_Blouse a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:woman ;
+    base:title "The Romanian Blouse" .
+
+art:The_Savoy_Girl a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Degas_Edgar ;
+    rel:portrayed base:girl ;
+    base:title "The Savoy Girl" .
+
+art:The_Schoolboy__Camille_Roulin_ a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:van_Gogh_Vincent ;
+    rel:portrayed base:boy ;
+    base:title "The Schoolboy (Camille Roulin)" .
+
+art:The_Sea_Seen_from_Collioure a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:people ;
+    base:title "The Sea Seen from Collioure" .
+
+art:The_Seed_of_the_Areoi a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Gauguin_Paul ;
+    rel:portrayed base:Woman ;
+    base:title "The Seed of the Areoi" .
+
+art:The_Sisters a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:girls ;
+    base:title "The Sisters" .
+
+art:The_Spirit_of_the_Dead_Watches a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Gauguin_Paul ;
+    rel:portrayed base:woman ;
+    base:title "The Spirit of the Dead Watches" .
+
+art:The_Telephone a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "The Telephone" .
+
+art:The_Toboggan a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Matisse_Henri ;
+    rel:portrayed base:people ;
+    base:title "The Toboggan" .
+
+art:The_Two_Friends a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:women ;
+    base:title "The Two Friends" .
+
+art:The_bread_carrier a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:woman ;
+    base:title "The bread carrier" .
+
+art:To_the_Water__Valencia a base:Artwork ;
+    rel:SubjectAgeIs base:Children ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Sorolla_Joaqu_n ;
+    rel:portrayed base:Woman ;
+    base:title "To the Water, Valencia" .
+
+art:Truck_Announcement a base:Artwork ;
+    rel:TypeOf base:Urban ;
+    rel:createdBy artist:Warhol_Andy ;
+    rel:portrayed base:people ;
+    base:title "Truck Announcement" .
+
+art:Tulips_in_a_Vase a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Cezanne_Paul ;
+    base:title "Tulips in a Vase" .
+
+art:Turning_Road_at_Montgeroult a base:Artwork ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Rural ;
+    rel:createdBy artist:Cezanne_Paul ;
+    base:title "Turning Road at Montgeroult" .
+
+art:Two_Women_Running_on_the_Beach__The_Race_ a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Noon ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:women ;
+    base:title "Two Women Running on the Beach (The Race)" .
+
+art:Two_nude_women a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Picasso_Pablo ;
+    rel:portrayed base:women ;
+    base:title "Two nude women" .
+
+art:Van_Gogh_s_Chair a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:van_Gogh_Vincent ;
+    base:title "Van Gogh's Chair" .
+
+art:Vegetables a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Matisse_Henri ;
+    base:title "Vegetables" .
+
+art:Vesuvius a base:Artwork ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Warhol_Andy ;
+    base:title "Vesuvius" .
+
+art:Vincent_s_Bedroom_in_Arles a base:Artwork ;
+    rel:createdBy artist:van_Gogh_Vincent ;
+    base:title "Vincent's Bedroom in Arles" .
+
+art:Violin a base:Artwork ;
+    rel:TypeOf base:Abstract ;
+    rel:createdBy artist:Picasso_Pablo ;
+    base:title "Violin" .
+
+art:Viva_la_Vida__Watermelons a base:Artwork ;
+    rel:createdBy artist:Kahlo_Frida ;
+    base:title "Viva la Vida, Watermelons" .
+
+art:Volkswagen a base:Artwork ;
+    rel:createdBy artist:Warhol_Andy ;
+    base:title "Volkswagen" .
+
+art:War a base:Artwork ;
+    rel:TypeOf base:Still_life ;
+    rel:createdBy artist:Chagall_Marc ;
+    base:title "War" .
+
+art:Washing_the_Horse a base:Artwork ;
+    rel:SubjectAgeIs base:Child ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Seascape ;
+    rel:createdBy artist:Sorolla_Joaqu_n ;
+    rel:portrayed base:People ;
+    base:title "Washing the Horse" .
+
+art:Woman_Having_Her_Hair_Combed a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Degas_Edgar ;
+    rel:portrayed base:Women ;
+    base:title "Woman Having Her Hair Combed" .
+
+art:Woman_Ironing a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Degas_Edgar ;
+    rel:portrayed base:woman ;
+    base:title "Woman Ironing" .
+
+art:Woman_Reading a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "Woman Reading" .
+
+art:Woman_Reading_in_a_Garden a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "Woman Reading in a Garden" .
+
+art:Woman_in_Black a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "Woman in Black" .
+
+art:Woman_in_Red__Portrait_of_Mrs__Bush_ a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "Woman in Red (Portrait of Mrs. Bush)" .
+
+art:Woman_in_a_Red_Striped_Dress a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cezanne_Paul ;
+    rel:portrayed base:woman ;
+    base:title "Woman in a Red Striped Dress" .
+
+art:Woman_in_a_Yellow_Dress a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:woman ;
+    base:title "Woman in a Yellow Dress" .
+
+art:Woman_s_Head_with_Large_Hat a base:Artwork ;
+    rel:createdBy artist:Cassatt_Mary ;
+    base:title "Woman`s Head with Large Hat" .
+
+art:Woman_with_a_Pearl_Necklace a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Evening ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Woman ;
+    base:title "Woman with a Pearl Necklace" .
+
+art:Women_Admiring_a_Child a base:Artwork ;
+    rel:SubjectAgeIs base:Toddler ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Woman ;
+    base:title "Women Admiring a Child" .
+
+art:Young_Boy_in_Blue a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:girl ;
+    base:title "Young Boy in Blue" .
+
+art:Young_Girl_Holding_a_Loose_Bouquet a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:girl ;
+    base:title "Young Girl Holding a Loose Bouquet" .
+
+art:Young_Girls a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Women ;
+    base:title "Young Girls" .
+
+art:Young_Ladies a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TypeOf base:Portrait ;
+    rel:createdBy artist:Lempicka_Tamara_de ;
+    rel:portrayed base:women ;
+    base:title "Young Ladies" .
+
+art:Young_Mother_and_Two_Children a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Woman ;
+    base:title "Young Mother and Two Children" .
+
+art:Young_Woman_In_Green_Outdoors_In_The_Sun a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:Woman ;
+    base:title "Young Woman In Green Outdoors In The Sun" .
+
+art:Young_Woman_Picking_Fruit a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Everyday ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:women ;
+    base:title "Young Woman Picking Fruit" .
+
+art:Young_Woman_Sewing_in_the_garden a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Midmorning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "Young Woman Sewing in the garden" .
+
+art:Young_Woman_with_Auburn_Hair_in_a_Pink_Blouse a base:Artwork ;
+    rel:SubjectAgeIs base:Young ;
+    rel:TimeOfDayIs base:Morning ;
+    rel:TypeOf base:Landscape ;
+    rel:createdBy artist:Cassatt_Mary ;
+    rel:portrayed base:woman ;
+    base:title "Young Woman with Auburn Hair in a Pink Blouse" .
+
+artist:Dante_Gabriel_Rossetti a base:Artist ;
+    base:name "Dante Gabriel Rossetti" ;
+    rel:isCreator art:Portrait_of_Elizabeth_Siddal,
+        art:The_Garland .
+
+artist:Morisot_Berthe a base:Artist ;
+    base:name "Morisot Berthe" ;
+    rel:isCreator art:The_Artist_s_Sister_at_a_Window,
+        art:The_Blue_Vase .
+
+artist:Putz_Leo a base:Artist ;
+    base:name "Putz Leo" ;
+    rel:isCreator art:Cara_Sophia_K_hler__n_e_Goldammer,
+        art:Halbindianerin_mit_Fr_chten .
+
+artist:Rossetti_Dante_Gabriel a base:Artist ;
+    base:name "Rossetti Dante Gabriel" ;
+    rel:isCreator art:A_Vision_of_Fiammetta,
+        art:The_Beloved .
+
+artist:Waterhouse_John_William a base:Artist ;
+    base:name "Waterhouse John William" ;
+    rel:isCreator art:The_Annunciation,
+        art:The_Lady_of_Shalott .
+
+artist:Whistler_James_McNeill a base:Artist ;
+    base:name "Whistler James McNeill" ;
+    rel:isCreator art:Arrangement_in_Grey_and_Black_No_1__Portrait_of_the_Artist_s_Mother,
+        art:Symphony_in_White_no_1__The_White_Girl_Portrait_of_Joanna_Hiffernan .
+
+art:Bathers a base:Artwork ;
+    rel:SubjectAgeIs base:Adult ;
+    rel:TimeOfDayIs base:Midmorning,
+        base:Noon ;
+    rel:TypeOf base:Landscape,
+        base:Seascape ;
+    rel:createdBy artist:Cezanne_Paul,
+        artist:Picasso_Pablo ;
+    rel:portrayed base:group ;
+    base:title "Bathers" .
+
+artist:Kahlo_Frida a base:Artist ;
+    base:name "Kahlo Frida" ;
+    rel:isCreator art:Portrait_of_Do_a_Rosita_Morillo,
+        art:Still_life_with_parrot,
+        art:Viva_la_Vida__Watermelons .
+
+artist:Modigliani_Amedeo a base:Artist ;
+    base:name "Modigliani Amedeo" ;
+    rel:isCreator art:Alice,
+        art:Female_nude,
+        art:Head_of_a_Woman .
+
+artist:Mondrian_Piet a base:Artist ;
+    base:name "Mondrian Piet" ;
+    rel:isCreator art:Composition_with_Gray_and_Light_Brown,
+        art:Composition_with_Grid_IX,
+        art:Composition_with_Grid_VII .
+
+artist:Bronzino_Agnolo a base:Artist ;
+    base:name "Bronzino Agnolo" ;
+    rel:isCreator art:An_Allegory_with_Venus_and_Cupid,
+        art:Cosimo_de__Medici,
+        art:Holy_Family_with_St__Anne_and_the_infant_St__John_the_Baptist,
+        art:Portrait_of_Stefano_IV_Colonna .
+
+artist:Hopper_Edward a base:Artist ;
+    base:name "Hopper Edward" ;
+    rel:isCreator art:Cape_Cod_Afternoon,
+        art:Elizabeth_Griffiths_Smith_Hopper__The_Artist_s_Mother,
+        art:Rooms_By_The_Sea,
+        art:Summer_Evening .
+
+artist:O_Keeffe_Georgia a base:Artist ;
+    base:name "O'Keeffe Georgia" ;
+    rel:isCreator art:Dead_Tree_with_Pink_Hill,
+        art:Ends_Of_Barns,
+        art:Hibiscus_with_Plumeria,
+        art:Purple_Leaves .
+
+artist:Gauguin_Paul a base:Artist ;
+    base:name "Gauguin Paul" ;
+    rel:isCreator art:Annah_the_Javanese,
+        art:Still_life_with_Tahitian_oranges,
+        art:Tahitian_mountains,
+        art:The_King_s_Wife,
+        art:The_Seed_of_the_Areoi,
+        art:The_Spirit_of_the_Dead_Watches .
+
+artist:Sargent_John_Singer a base:Artist ;
+    base:name "Sargent John Singer" ;
+    rel:isCreator art:Base_of_a_Palace,
+        art:Ellen_Terry_as_Lady_Macbeth,
+        art:Flora_Priestley__also_known_as_Lamplight_Study_,
+        art:Ponte_San_Giuseppe_di_Castello__Venice,
+        art:Self_Portrait,
+        art:Still_Life_with_Daffodils .
+
+artist:Velazquez_Diego a base:Artist ;
+    base:name "Velazquez Diego" ;
+    rel:isCreator art:A_White_Horse,
+        art:Dona_Antonia_de_Ipenarrieta_y_Galdos_and_her_Son,
+        art:Head_of_a_Stag,
+        art:Portrait_of_Cardinal_Infante_Ferdinand_of_Austria_with_Gun_and_Dog,
+        art:Portrait_of_a_Lady,
+        art:Queen_Isabel__Standing,
+        art:The_Rokeby_Venus .
+
+artist:Degas_Edgar a base:Artist ;
+    base:name "Degas Edgar" ;
+    rel:isCreator art:Ballet_Scene,
+        art:Dancer_with_a_Fan,
+        art:Dancer_with_a_bouquet_of_flowers__The_Star_of_the_ballet_,
+        art:Singer_with_a_glove,
+        art:Study_for_Semiramis_Building_Babylon,
+        art:The_Savoy_Girl,
+        art:Woman_Having_Her_Hair_Combed,
+        art:Woman_Ironing .
+
+artist:Hokusai_Katsushika a base:Artist ;
+    base:name "Hokusai Katsushika" ;
+    rel:isCreator art:Cranes_from_Quick_Lessons_in_Simplified_Drawing,
+        art:Fuji__Mountains_in_clear_Weather___Red_Fuji_,
+        art:Hodogaya_on_the_Tokaido,
+        art:Hydrangea_and_Swallow,
+        art:Lake_Suwa_in_the_Shinano_province,
+        art:Portrait_of_a_woman_holding_a_fan,
+        art:Rainstorm_beneath_the_Summit,
+        art:The_Dragon_of_Smoke_Escaping_from_Mount_Fuji,
+        art:The_Great_Wave_off_Kanagawa .
+
+artist:van_Gogh_Vincent a base:Artist ;
+    base:name "van Gogh Vincent" ;
+    rel:isCreator art:Fishing_Boats_on_the_Beach_at_Saintes_Maries_de_la_Mer,
+        art:Paul_Gauguin_s_Armchair,
+        art:Portrait_of_Postman_Roulin,
+        art:Still_Life___Vase_with_Fifteen_Sunflowers,
+        art:The_Entrance_Hall_of_Saint_Paul_Hospital,
+        art:The_Langlois_Bridge,
+        art:The_Schoolboy__Camille_Roulin_,
+        art:Van_Gogh_s_Chair,
+        art:Vincent_s_Bedroom_in_Arles .
+
+artist:Sorolla_Joaqu_n a base:Artist ;
+    base:name "Sorolla Joaquín" ;
+    rel:isCreator art:Beached_Boats,
+        art:Children_in_the_Sea,
+        art:Hall_of_the_Ambassadors__Alhambra__Granada,
+        art:On_San_Sebastian_beach,
+        art:On_the_Beach_at_Valencia,
+        art:Oxen_at_the_Beach,
+        art:Promenade_by_the_Sea,
+        art:Return_From_Fishing,
+        art:Running_along_the_beach,
+        art:To_the_Water__Valencia,
+        art:Washing_the_Horse .
+
+artist:Chagall_Marc a base:Artist ;
+    base:name "Chagall Marc" ;
+    rel:isCreator art:A_House_in_Liozna,
+        art:Barber_s_Shop__Uncle_Zusman_,
+        art:Burning_House,
+        art:Clock,
+        art:Equestrienne,
+        art:Flayed_ox,
+        art:Horsewoman_on_Red_Horse,
+        art:Joseph__a_shepherd,
+        art:Joseph_and_Potiphar_s_wife,
+        art:Portrait_of_Vava,
+        art:Small_Drawing_Room,
+        art:Study_for_the_painting_Rain,
+        art:War .
+
+artist:Uccello_Paolo a base:Artist ;
+    base:name "Uccello Paolo" ;
+    rel:isCreator art:A_Young_Lady_of_Fashion,
+        art:Christ_on_cross,
+        art:Crucifixion,
+        art:Equestrian_Monument_of_Sir_John_Hawkwood,
+        art:Hope,
+        art:Madonna,
+        art:Portrait_Of_A_Lady,
+        art:Portrait_of_a_Young_Man,
+        art:Roundel_with_Head,
+        art:Saints_and_two_children,
+        art:St_Dominic,
+        art:St_Francis,
+        art:St__George_and_the_Dragon .
+
+artist:Cezanne_Paul a base:Artist ;
+    base:name "Cezanne Paul" ;
+    rel:isCreator art:Apples__Pears_and_Grapes,
+        art:Bathers,
+        art:Compotier__Glass_and_Apples,
+        art:Farmyard_at_Auvers,
+        art:Girl,
+        art:Houses_at_the_L_Estaque,
+        art:Jourdan_s_Cottage,
+        art:Madame_Cezanne_in_the_Greenhouse,
+        art:Nude_Woman_Standing,
+        art:Peasant_in_a_Blue_Smock,
+        art:Pierrot_and_Harlequin__Mardi_Gras_,
+        art:Still_Life_Flowers_in_a_Vase,
+        art:Still_Life_with_Red_Onions,
+        art:Still_Life_with_Skull,
+        art:Still_life_with_apples__servettes_and_a_milkcan,
+        art:Still_life_with_fruits,
+        art:Study_of_Bathers,
+        art:Tulips_in_a_Vase,
+        art:Turning_Road_at_Montgeroult,
+        art:Woman_in_a_Red_Striped_Dress .
+
+artist:Warhol_Andy a base:Artist ;
+    base:name "Warhol Andy" ;
+    rel:isCreator art:3_Coke_Bottles,
+        art:Big_Campbell_s_Soup_Can_19c__Beef_Noodle_,
+        art:Bunny_Multiple,
+        art:COM,
+        art:Cow,
+        art:Do_It_Yourself__Flowers_,
+        art:Do_It_Yourself__Sailboats_,
+        art:Do_It_Yourself__Seascape_,
+        art:Flowers,
+        art:Ingrid_Bergman_With_Hat,
+        art:Ingrid_Bergman__as_Herself_,
+        art:Jane_Fonda,
+        art:Liz_Taylor,
+        art:Liza_Minnelli,
+        art:Marilyn,
+        art:Pine_Barren_Tree_Frog_II_294__From_Endangered_Species_Suite_,
+        art:Queen_Beatrix_of_the_Netherlands__from_Reigning_Queens,
+        art:Queen_Margrethe_II_Of_Denmark,
+        art:Sitting_Bull,
+        art:Truck_Announcement,
+        art:Vesuvius,
+        art:Volkswagen .
+
+artist:Matisse_Henri a base:Artist ;
+    base:name "Matisse Henri" ;
+    rel:isCreator art:Asia,
+        art:Bather_in_the_Reeds,
+        art:Blue_Nude_III,
+        art:Codomas,
+        art:Harmony_in_Red,
+        art:Interior,
+        art:Interior_in_Yellow,
+        art:Lemons_and_Saxifrages,
+        art:Ochre_Head__Lozenge_Background,
+        art:Polynesia__La_Mer,
+        art:Polynesia__the_sky,
+        art:Red_Jacket,
+        art:Still_Life_with_Green_Sideboard,
+        art:The_Ballet_Dancer,
+        art:The_Ballet_Dancer__Harmony_in_Grey,
+        art:The_Clown,
+        art:The_Destiny,
+        art:The_Flowing_Hair,
+        art:The_Geranium,
+        art:The_Lagoon_1,
+        art:The_Lute,
+        art:The_Ochre_Head,
+        art:The_Romanian_Blouse,
+        art:The_Sea_Seen_from_Collioure,
+        art:The_Toboggan,
+        art:Vegetables .
+
+artist:Picasso_Pablo a base:Artist ;
+    base:name "Picasso Pablo" ;
+    rel:isCreator art:A_dream,
+        art:Acrobat_and_young_harlequin,
+        art:Artist_s_son,
+        art:Bathers,
+        art:Boy_with_bouquet_of_flowers_in_his_hand,
+        art:Catalan_Woman,
+        art:Family_at_the_seashore,
+        art:Female_nude_sitting_in_red_armchair,
+        art:Girl_in_front_of_mirror,
+        art:Guitar,
+        art:Harlequin_with_his_hands_crossed__Jacinto_Salvado_,
+        art:Head,
+        art:Head_of_young_man,
+        art:Kallan,
+        art:Lovers,
+        art:Mother_and_child,
+        art:Olga,
+        art:Paul__the_artist_s_son__ten_years_old,
+        art:Portrait_of_D__M_,
+        art:Portrait_of_Paulo__artist_s_son,
+        art:Portrait_of_woman_in_d_hermine_pass__Olga_,
+        art:Seated_fat_clown,
+        art:Seated_woman,
+        art:Seated_woman__Olga_,
+        art:Standing_nude,
+        art:The_bread_carrier,
+        art:Two_Women_Running_on_the_Beach__The_Race_,
+        art:Two_nude_women,
+        art:Violin .
+
+artist:Lempicka_Tamara_de a base:Artist ;
+    base:name "Lempicka Tamara de" ;
+    rel:isCreator art:Adam_and_Eve,
+        art:Amethyst,
+        art:Beggar_with_Mandolin,
+        art:Blue_Woman_with_a_Guitar,
+        art:Bowl_of_Grapes,
+        art:Calla_Lillies,
+        art:Girl_with_Gloves,
+        art:In_The_Middle_Of_Summer,
+        art:Kizette_On_The_Balcony,
+        art:La_Belle_Rafaela,
+        art:Maternity,
+        art:My_Portrait__Self_Portrait_in_the_Green_Bugatti_,
+        art:Nude_on_a_Terrace,
+        art:Nude_with_Dove,
+        art:Portrait_Of_Dr__Boucard,
+        art:Portrait_of_Madame_M_,
+        art:Portrait_of_Madame_Zanetos,
+        art:Portrait_of_Mrs_Boucard,
+        art:Portrait_of_Mrs_M,
+        art:Portrait_of_Pierre_de_Montaut,
+        art:Portrait_of_Prince_Eristoff,
+        art:Potrait_of_Arlette_Boucard,
+        art:Printemps,
+        art:Saint_Moritz,
+        art:Suzanne_Bathing,
+        art:The_Green_Turban,
+        art:The_Model,
+        art:The_Mother_Superior,
+        art:The_Telephone,
+        art:The_Two_Friends,
+        art:Woman_in_Red__Portrait_of_Mrs__Bush_,
+        art:Woman_in_a_Yellow_Dress,
+        art:Young_Ladies .
+
+artist:Cassatt_Mary a base:Artist ;
+    base:name "Cassatt Mary" ;
+    rel:isCreator art:At_the_Theater,
+        art:Boat__Bath,
+        art:Breakfast_in_Bed,
+        art:Bust_of_Francoise_Looking_Down,
+        art:Child_with_Red_Hat,
+        art:Children_Playing_On_The_Beach,
+        art:Children_Playing_with_a_Cat,
+        art:Elsie_in_a_Blue_Chair,
+        art:Feeding_the_Ducks,
+        art:Francoise_Wearing_a_Big_White_Hat,
+        art:Girl_In_Large_Hat,
+        art:In_the_park,
+        art:Little_Ann_Sucking_Her_Finger_Embraced_by_Her_Mother,
+        art:Little_Girl_in_a_Blue_Armchair,
+        art:Little_Girl_with_a_Japanese_Doll,
+        art:Lydia_Crocheting_in_the_Garden_at_Marly,
+        art:Mary_Ellison_Embroidering,
+        art:Moses_Dreyfus,
+        art:Mother_and_Two_Children,
+        art:Mrs_Cassatt_Reading_to_her_Grandchildren,
+        art:Pattycake,
+        art:Portrait_of_Charles_Dikran_Kelekian,
+        art:Portrait_of_Madame_Alfred_Lavergne__born_Magdalena_Mellon,
+        art:Portrait_of_an_elderly_lady,
+        art:Roman_Girl,
+        art:Sketch_of__Ellen_My_Cassatt_in_a_Big_Blue_Hat,
+        art:Study_for_Augusta_Reading_to_Her_Daughter,
+        art:Susan_in_a_Toque_Trimmed_with_Two_Roses,
+        art:The_Barefoot_Child,
+        art:The_Boating_Party,
+        art:The_Pensive_Reader,
+        art:The_Sisters,
+        art:Woman_Reading,
+        art:Woman_Reading_in_a_Garden,
+        art:Woman_in_Black,
+        art:Woman_s_Head_with_Large_Hat,
+        art:Woman_with_a_Pearl_Necklace,
+        art:Women_Admiring_a_Child,
+        art:Young_Boy_in_Blue,
+        art:Young_Girl_Holding_a_Loose_Bouquet,
+        art:Young_Girls,
+        art:Young_Mother_and_Two_Children,
+        art:Young_Woman_In_Green_Outdoors_In_The_Sun,
+        art:Young_Woman_Picking_Fruit,
+        art:Young_Woman_Sewing_in_the_garden,
+        art:Young_Woman_with_Auburn_Hair_in_a_Pink_Blouse .
+
